@@ -5,7 +5,7 @@ A collection of small-scale machine learning experiments, utility scripts, and d
 
 | Project Name | Description | Status |
 | :--- | :--- | :--- |
-| **[MNIST_DIGITAL_CLASSIFIER](./MNIST_DIGITAL_CLASSIFIER)** | CNN-based handwritten digit recognizer with 98% accuracy. | ✅ Complete |
+| **[MNIST_DIGITAL_CLASSIFIER](./MNIST_DIGITAL_CLASSIFIER)** | CNN-based handwritten digit recognizer with 98% accuracy. | IN PROGRESS  |
 | **Future Project** | *Coming soon...* | ⏳ Pending |
 
 ---
