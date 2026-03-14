@@ -14,7 +14,6 @@ packaging==26.0
 pillow==12.1.1
 pyparsing==3.3.2
 python-dateutil==2.9.0.post0
-setuptools==82.0.1
 six==1.17.0
 sympy==1.14.0
 torch==2.10.0
