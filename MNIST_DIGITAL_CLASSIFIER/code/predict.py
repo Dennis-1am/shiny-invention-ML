@@ -1,6 +1,7 @@
 import torch
 import torchvision.transforms as transforms
 from PIL import Image, ImageFilter, ImageOps
+import argparse
 from pathlib import Path
 from models import BetterCNN
 
@@ -45,4 +46,8 @@ def predict_image(image_path):
 
 
 if __name__ == '__main__':
-    predict_image(str(DATA_DIR / 'MNIST/test/#3.1.png'))
+    parser = argparse.ArgumentParser(description="Predict a digit from an image.")
+    parser.add_argument("image_path", type=str, help="Path to the image file.")
+    args = parser.parse_args()
+
+    predict_image(args.image_path)

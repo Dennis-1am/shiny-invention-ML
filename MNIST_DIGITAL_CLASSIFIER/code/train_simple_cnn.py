@@ -17,7 +17,7 @@ WEIGHTS_DIR.mkdir(exist_ok=True)
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 print(f"🚀 Training on: {device}")
 
-# Data Pipeline
+# Data Pipeline enhance the training data
 train_transform = transforms.Compose([
     transforms.RandomRotation(15),
     transforms.RandomAffine(0, translate=(0.1, 0.1)),
